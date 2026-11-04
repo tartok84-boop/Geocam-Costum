@@ -1,0 +1,9 @@
+CARA MEMBUAT APK (tanpa Android Studio)
+1. Buat akun & repository baru di github.com (boleh Private).
+2. Upload SEMUA isi folder ini (termasuk folder .github) ke repository.
+3. Buka tab Actions > "Build APK" > Run workflow. Tunggu +-5 menit.
+4. Buka hasil run > bagian Artifacts > unduh "Kamera-Geotag-APK" (zip), ekstrak -> app-debug.apk
+5. Kirim app-debug.apk ke HP Android, buka, izinkan "Instal dari sumber tidak dikenal".
+
+CARA LAIN: buka folder "android" dengan Android Studio > Build > Build APK(s).
+Mengubah tampilan/fitur: edit www/index.html lalu build ulang.
